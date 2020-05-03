@@ -54,6 +54,8 @@ dependencies {
     implementation "com.google.dagger:dagger:$dagger_version"
     kapt "com.google.dagger:dagger-compiler:$dagger_version"
 
+    implementation 'com.squareup.sqldelight:android-driver:1.2.1'
+
     implementation project(':shared')
 
     testImplementation 'junit:junit:4.12'
